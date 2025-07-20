@@ -4,6 +4,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { ProductsModule } from './products/products.module';
+import { AiModule } from './ai/ai.module';
 import { Product } from './entities/product.entity';
 import { Review } from './entities/review.entity';
 
@@ -19,6 +20,7 @@ import { Review } from './entities/review.entity';
       synchronize: true,
     }),
     ProductsModule,
+    AiModule,
   ],
   controllers: [AppController],
   providers: [AppService],
