@@ -39,7 +39,7 @@ npm run build
 npm start
 ```
 
-The application will run on `http://localhost:3000` by default.
+The application will run on `http://localhost:3010` by default.
 
 ## Pages
 
